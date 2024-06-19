@@ -1,0 +1,19 @@
+/* Example styles.css */
+.article {
+  margin-bottom: 20px;
+}
+
+.article h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.article p {
+  line-height: 1.6;
+}
+
+.article-image {
+  width: 100%; /* Ensure image takes full width of its container */
+  max-height: 300px; /* Limit image height to avoid distortion */
+  object-fit: cover; /* Maintain aspect ratio while covering entire container */
+}
